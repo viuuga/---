@@ -3,7 +3,7 @@
 def map_list(func, *args):
     mass = []
     for i in args:
-        res = [list(map(func, i ))]
+        res = list(map(func, i ))
         mass.append(res)
 
 
