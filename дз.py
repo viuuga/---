@@ -1,4 +1,4 @@
-def print_all (args = input('введите аргументы: '),  sep = str(input()), end = str(input())):
+def print_all (args = input('введите аргументы: '),  sep = str(input('Что поставить между ними: ')), end = str(input('Чем закончим?: '))):
     if sep == '':
         sep = ' '
     if end == '':
