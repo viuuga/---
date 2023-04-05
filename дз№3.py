@@ -1,7 +1,7 @@
 def filter_list(num, *args):
     mass = []
     for i in args:
-        res = [list(filter(num, i ))]
+        res = list(filter(num, i ))
         mass.append(res)
     return mass
 
