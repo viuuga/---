@@ -2,7 +2,7 @@ def print_all (args = input('введите аргументы: '),  sep = str(i
     if sep == '':
         sep = ' '
     if end == '':
-        end = '\n'
+        end = '\\n'
     new_str = ''
     for arg in args:
         new_str += str(arg) + sep
